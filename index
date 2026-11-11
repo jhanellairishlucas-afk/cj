@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl John Sabado | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Carl<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home section">
+        <div class="home-content">
+            <p class="subtitle">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Carl John Sabado</span></h1>
+
+            <h2>BS Information Technology Student</h2>
+
+            <p class="description">
+                I am an Information Technology student who is passionate
+                about learning new technologies, developing my programming
+                skills, and gaining knowledge in the field of Information
+                Technology.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#about" class="btn">About Me</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <div class="profile-placeholder">
+                <span>CS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-container">
+            <div class="about-image">
+                <div class="about-placeholder">CS</div>
+            </div>
+
+            <div class="about-content">
+                <h3>Who Am I?</h3>
+
+                <p>
+                    My name is <strong>Carl John Sabado</strong>, a Bachelor
+                    of Science in Information Technology student at
+                    La Consolacion University Philippines. I am a motivated
+                    and responsible student who is interested in computers,
+                    programming, and technology.
+                </p>
+
+                <p>
+                    I enjoy learning new things, exploring different
+                    applications, and improving my technical skills through
+                    school activities and projects. My goal is to continue
+                    developing my abilities and gain more experience in
+                    the field of Information Technology.
+                </p>
+
+                <div class="personal-info">
+                    <p><strong>Name:</strong> Carl John Sabado</p>
+                    <p><strong>Course:</strong> BS Information Technology</p>
+                    <p><strong>School:</strong> La Consolacion University Philippines</p>
+                    <p><strong>Interest:</strong> Programming and Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="section-heading">
+            <p>WHAT I CAN DO</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Basic knowledge of creating and structuring web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Basic knowledge of styling and designing websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>JavaScript</h3>
+                <p>Understanding basic programming concepts and website interactions.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <h3>Java</h3>
+                <p>Basic understanding of object-oriented programming.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>Familiarity with basic Python syntax and programming logic.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <h3>MySQL</h3>
+                <p>Basic knowledge of databases and data management.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="section-heading">
+            <p>MY SCHOOL WORK</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        Developed a personal website to present my
+                        background, technical skills, and experiences
+                        as an Information Technology student.
+                    </p>
+                    <span class="project-tag">Web Development</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">📋</div>
+                <div class="project-info">
+                    <h3>Student Record System</h3>
+                    <p>
+                        Created a simple system concept designed to
+                        organize and manage student information
+                        efficiently.
+                    </p>
+                    <span class="project-tag">Programming</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">📦</div>
+                <div class="project-info">
+                    <h3>Inventory Management System</h3>
+                    <p>
+                        Developed a basic inventory system concept
+                        that helps organize product information
+                        and monitor available stocks.
+                    </p>
+                    <span class="project-tag">System Development</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section">
+        <div class="section-heading">
+            <p>MY PROGRESS</p>
+            <h2>Achievements & <span>Experiences</span></h2>
+        </div>
+
+        <div class="achievements-container">
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🎓</div>
+                <h3>Academic Development</h3>
+                <p>
+                    Continuously developing my knowledge and skills
+                    through academic activities, programming exercises,
+                    and school projects.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">💡</div>
+                <h3>Personal Growth</h3>
+                <p>
+                    Improving my problem-solving, communication,
+                    and technical skills through learning experiences
+                    and collaboration.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🚀</div>
+                <h3>Continuous Learning</h3>
+                <p>
+                    Exploring new technologies and learning different
+                    ways to improve my abilities as an IT student.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="section-heading">
+            <p>GET IN TOUCH</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect!</h3>
+
+                <p>
+                    Thank you for visiting my portfolio. Feel free to
+                    contact me for questions, collaborations, or
+                    opportunities.
+                </p>
+
+                <div class="contact-item">
+                    <span>📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>your-email@example.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Philippines</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <input type="text" id="subject" placeholder="Subject" required>
+
+                <textarea id="message" rows="6"
+                    placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Carl John Sabado. All Rights Reserved.</p>
+        <p>Designed with 💙 for my personal portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
